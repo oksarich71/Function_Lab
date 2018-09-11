@@ -93,3 +93,7 @@ end
 def calculate_volume_of_sphere(radius)
   return (4.0 / 3.0 * 3.14 * (radius ** 3)).to_i
 end
+
+def convert_farenheit_to_celsius(temperature)
+  return ((temperature - 32) * 5.0 / 9.0).to_i
+end
